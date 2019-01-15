@@ -1,21 +1,21 @@
-roget
-├── 1_words_expressing_abstract_relations
-│   ├── 1_existence
-│   │   ├── 1_being_in_the_abstract
-│   │   │   ├── #1
-│   │   │   └── #1_existence.txt
-│   │   ├── 2_being_in_the_concrete
-│   │   │   └── #3
-│   │   ├── 3_formal_existence
-│   │   │   └── #5
-│   │   └── 4_modal_existence
-│   │       └── #7
-│   ├── 2_relation
-│   │   ├── 1_absolute_relation
-│   │   │   └── #9
-│   │   ├── 2_continuous_relation
-│   │   │   └── #16
-│   │   ├── 3_partial_relation
+roget<br>
+├── 1_words_expressing_abstract_relations<br>
+│   ├── 1_existence<br>
+│   │   ├── 1_being_in_the_abstract<br>
+│   │   │   ├── #1<br>
+│   │   │   └── #1_existence.txt<br>
+│   │   ├── 2_being_in_the_concrete<br>
+│   │   │   └── #3<br>
+│   │   ├── 3_formal_existence<br>
+│   │   │   └── #5<br>
+│   │   └── 4_modal_existence<br>
+│   │       └── #7<br>
+│   ├── 2_relation<br>
+│   │   ├── 1_absolute_relation<br>
+│   │   │   └── #9<br>
+│   │   ├── 2_continuous_relation<br>
+│   │   │   └── #16<br>
+│   │   ├── 3_partial_relation<br>
 │   │   │   └── #17
 │   │   └── 4_general_relation
 │   │       └── #23
