@@ -1,3 +1,5 @@
+# The original structure of the Thesaurus compiled by Roget
+This is the structure devised by Roget. The individual items are being added.<br>
 <pre>
 roget
 ├── 1_words_expressing_abstract_relations
