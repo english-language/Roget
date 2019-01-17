@@ -250,6 +250,5 @@ roget
 │       └── 5_religious_institutions
 │           ├── #1000
 │           └── #995
-├── LICENSE
 └── README.md
 </pre>
