@@ -1,4 +1,4 @@
-# The original structure of the Thesaurus compiled by Roget
+# The original structure of the Thesaurus.
 This is the structure devised by Roget. The individual items are being added.<br>
 <pre>
 roget
