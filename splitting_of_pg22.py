@@ -49,10 +49,12 @@ be = re.compile('%\n')   # beginning or end of a multi-line
 
 beg = True             # this is the end of the multi-line
 
+# the main cycle:
 roget = open('roget.txt', 'r')
 
-# the main cycle:
-for line in roget:
+while True:
+    line = roget.readline()
+    if not line: break
     if re.match(be, line) and beg:
         next = roget.readline()
         print(next)
