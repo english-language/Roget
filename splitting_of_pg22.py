@@ -76,7 +76,7 @@ pt = re.compile('') # part
 beg = True             # this is the end of the multi-line
 
 # the main cycle:
-roget = open('roget.txt', 'r')
+roget = open('pg22.txt', 'r')
 
 while True:
     line: str = roget.readline()
