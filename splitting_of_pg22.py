@@ -39,7 +39,16 @@ The pages are marked as:
 These marks should probably be removed first.
 """
 
+
 for line in open('roget.txt'):
     pass
+
+"""
+
+import urllib
+
+for line in urllib.request.urlopen('http://www.gutenberg.org/cache/epub/22/pg22.txt'):
+    pass
+"""
 
 print('ok')
