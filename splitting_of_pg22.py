@@ -79,11 +79,11 @@ beg = True             # this is the end of the multi-line
 roget = open('roget.txt', 'r')
 
 while True:
-    line = roget.readline()
+    line: str = roget.readline()
     if not line: break              # end of the main loop.
     if re.match(be, line) and beg:  # title of a class, section...
-        next = roget.readline()
-        print(next)                 # processing of a title here
+        nxt = roget.readline()
+        print(nxt)                 # processing of a title here
         beg = False
     elif not beg: beg = True
     if re.search(it, line):
@@ -94,9 +94,6 @@ while True:
 # by re.match(), that's what should be used for % and <--
 #
 #
-
-
-
 
 """
 
