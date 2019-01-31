@@ -67,6 +67,12 @@ charref_2 = re.compile("&#(0[0-7]+"
                      "|[0-9]+"
                      "|x[0-9a-fA-F]+);")
 
+cl = re.compile(r'\bCLASS\b')   # class title
+
+se = re.compile(r'\bSECTION\b') # section title
+
+pt = re.compile('') # part
+
 beg = True             # this is the end of the multi-line
 
 # the main cycle:
