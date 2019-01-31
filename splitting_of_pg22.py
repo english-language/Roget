@@ -44,8 +44,14 @@ import re
 
 # the % symbol in the beginning of the line
 
-be = re.compile('%\n')   # beginning or end of a multi-line
+be = re.compile('%\n')  # beginning or end of a multi-line
                         # title of class, section, part
+
+tb = re.compile('     ') # starting tab of 5 spaces
+
+me = re.compile('\[.+\]') # everything in brackets
+
+it = re.compile('#\d+')
 
 beg = True             # this is the end of the multi-line
 
@@ -54,12 +60,14 @@ roget = open('roget.txt', 'r')
 
 while True:
     line = roget.readline()
-    if not line: break
-    if re.match(be, line) and beg:
+    if not line: break              # end of the main loop.
+    if re.match(be, line) and beg:  # title of a class, section...
         next = roget.readline()
-        print(next)
+        print(next)                 # processing of a title here
         beg = False
     elif not beg: beg = True
+    if re.search(me, line):
+        print(line)
 
 
 # the symbol at the  beginning of the line is detected best

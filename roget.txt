@@ -13,7 +13,7 @@ SECTION I. EXISTENCE
 1. BEING, IN THE ABSTRACT
 %
 
-     #1.  Existence.-- N. existence, being, entity, ens[Lat], esse[Lat],
+     #1.  Existence. -- N. existence, being, entity, ens[Lat], esse[Lat],
 subsistence.
      reality, actuality; positiveness &c. adj.; fact, matter of fact, sober
 reality; truth &c. 494; actual existence.
@@ -43,7 +43,7 @@ de facto, ipso facto.
 depend on time?" [Lat][Byron].
 
 
-     #2. Inexistence.-- N. inexistence[obs3]; nonexistence, nonsubsistence;
+     #2. Inexistence. -- N. inexistence[obs3]; nonexistence, nonsubsistence;
 nonentity, nil; negativeness &c. adj.; nullity; nihility[obs3], nihilism;
 tabula rasa[Lat], blank; abeyance; absence &c. 187; no such thing &c. 4;
 nonbeing, nothingness, oblivion.
@@ -116,7 +116,7 @@ null; inane.
 Internal conditions
 %
 
-     #5. Intrinsicality.-- N. intrinsicality[obs3], inbeing[obs3],
+     #5. Intrinsicality. -- N. intrinsicality[obs3], inbeing[obs3],
 inherence, inhesion[obs3]; subjectiveness; ego; egohood[obs3]; essence,
 noumenon; essentialness[obs3] &c. adj.; essential part, quintessence,
 incarnation, quiddity, gist, pith, marrow, core, sap, lifeblood, backbone,
@@ -151,7 +151,7 @@ Hamlet][Nepos]; non numero haec judicantur sed pondere [Lat][Cicero];
 External conditions
 %
 
-     #6. Extrinsicality.-- N. extrinsicality[obs3], objectiveness, non ego;
+     #6. Extrinsicality. -- N. extrinsicality[obs3], objectiveness, non ego;
 extraneousness &c. 57; accident; appearance, phenomenon &c. 448.
      Adj. derived from without; objective; extrinsic, extrinsical[obs3];
 extraneous &c. (foreign) 57; modal, adventitious; ascititious[obs3],
@@ -336,7 +336,7 @@ muchness[obs3]; unaltered.
 Adv. identically &c. adj.; on all fours.
 
 
-     #14. [Noncoincidence.] Contrariety.-- N. contrariety, contrast, foil,
+     #14. [Noncoincidence.] Contrariety. -- N. contrariety, contrast, foil,
 antithesis, oppositeness; contradiction; antagonism &c. (opposition) 708;
 clashing, repugnance.
      inversion &c. 218; the opposite, the reverse, the inverse, the
