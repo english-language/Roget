@@ -51,7 +51,7 @@ tb = re.compile('     ') # starting tab of 5 spaces
 
 me = re.compile('\[.+\]') # everything in brackets
 
-it = re.compile('#\d+')
+it = re.compile('#\d+\.')
 
 beg = True             # this is the end of the multi-line
 
@@ -66,7 +66,7 @@ while True:
         print(next)                 # processing of a title here
         beg = False
     elif not beg: beg = True
-    if re.search(me, line):
+    if re.search(it, line):
         print(line)
 
 
