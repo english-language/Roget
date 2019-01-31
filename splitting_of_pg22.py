@@ -51,7 +51,8 @@ tb = re.compile('     ') # starting tab of 5 spaces
 
 me = re.compile('\[.+\]') # everything in brackets
 
-it = re.compile('#\d+\.')
+it = re.compile('#\d+\.') # items with a '#', digits and '.'
+                          # in front
 
 beg = True             # this is the end of the multi-line
 
