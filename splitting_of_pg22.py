@@ -53,6 +53,19 @@ me = re.compile('\[.+\]') # everything in brackets
 
 it = re.compile('#\d+\.') # items with a '#', digits and '.'
                           # in front
+charref_1 = re.compile(r"""
+ &[#]                # Start of a numeric entity reference
+ (
+     0[0-7]+         # Octal form
+   | [0-9]+          # Decimal form
+   | x[0-9a-fA-F]+   # Hexadecimal form
+ )
+ ;                   # Trailing semicolon
+""", re.VERBOSE)
+
+charref_2 = re.compile("&#(0[0-7]+"
+                     "|[0-9]+"
+                     "|x[0-9a-fA-F]+);")
 
 beg = True             # this is the end of the multi-line
 
