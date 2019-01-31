@@ -39,7 +39,7 @@ The pages are marked as:
 These marks should probably be removed first.
 """
 
-for line in open('http://www.gutenberg.org/cache/epub/22/pg22.txt'):
+for line in open('roget.txt'):
     pass
 
 print('ok')
