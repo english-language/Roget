@@ -80,8 +80,8 @@ lines: list = []
 beg = True             # this is the end of the multi-line
 
 with open('pg22.txt', 'tr') as roget:
-    while roget:
-        line: str = roget.readline()
+    while True:
+        line = roget.readline()
         if not line: break
         if re.search(it, line): print(line)
 
