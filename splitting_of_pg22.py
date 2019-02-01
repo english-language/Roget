@@ -73,17 +73,29 @@ se = re.compile(r'\bSECTION\b') # section title
 
 pt = re.compile('') # part
 
+line: str = ''
+
+lines: list = []
+
 beg = True             # this is the end of the multi-line
 
 # the main cycle:
 roget = open('pg22.txt', 'r')
 
 while True:
-    line: str = roget.readline()
+    line = roget.readline()
     if not line: break              # end of the main loop.
     if re.match(be, line) and beg:  # title of a class, section...
-        nxt = roget.readline()
-        print(nxt)                 # processing of a title here
+        while True:
+            line = roget.readline()
+            if not line: break
+            if not re.match(be, line) and beg:
+                lines.append(line)
+            else:
+                print(lines)
+                lines = []
+                break                # processing of a title ends here
+
         beg = False
     elif not beg: beg = True
     if re.search(it, line):
