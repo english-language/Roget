@@ -83,9 +83,14 @@ with open('pg22.txt', 'tr') as roget:
     while True:
         line = roget.readline()
         if not line: break
-        if re.search(it, line): print(line)
+        if re.match(be, line) and beg:
+            pass # do the header reading
+        elif re.search(it, line): print(line)
+        else:
+            pass
 
 """
+
 # the main cycle:
 with open('pg22.txt', 'r') as roget:
     while True:
