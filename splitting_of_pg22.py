@@ -84,10 +84,11 @@ with open('pg22.txt', 'tr') as roget:
         line = roget.readline()
         if not line: break
         if re.match(be, line) and beg:
-            pass # do the header reading
-        elif re.search(it, line): print(line)
+            pass # do the (compound) header reading
+        elif re.search(it, line):
+            print(line) # the first line of an item
         else:
-            pass
+            pass # not header not item, who knows what it is.
 
 """
 
