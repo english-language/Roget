@@ -79,29 +79,34 @@ lines: list = []
 
 beg = True             # this is the end of the multi-line
 
-# the main cycle:
-roget = open('pg22.txt', 'r')
+with open('pg22.txt', 'tr') as roget:
+    while roget:
+        line: str = roget.readline()
+        if not line: break
+        if re.search(it, line): print(line)
 
-while True:
-    line = roget.readline()
-    if not line: break              # end of the main loop.
-    if re.match(be, line) and beg:  # title of a class, section...
-        while True:
-            line = roget.readline()
-            if not line: break
-            if not re.match(be, line) and beg:
-                lines.append(line)
-            else:
-                print(lines)
-                lines = []
+"""
+# the main cycle:
+with open('pg22.txt', 'r') as roget:
+    while True:
+        line = roget.readline()
+        if not line: break              # end of the main loop.
+        if re.match(be, line) and beg:  # title of a class, section...
+            while True:
+                line = roget.readline()
+                if not line: break
+                if not re.match(be, line) and beg:
+                    lines.append(line)
+                else:
+                    print(lines)
+                    lines = []
                 break                # processing of a title ends here
 
-        beg = False
-    elif not beg: beg = True
-    if re.search(it, line):
-        print(line)
-
-
+            beg = False
+        elif not beg: beg = True
+        if re.search(it, line):
+            print(line)
+"""
 # the symbol at the  beginning of the line is detected best
 # by re.match(), that's what should be used for % and <--
 #
