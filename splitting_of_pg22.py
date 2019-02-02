@@ -46,6 +46,7 @@ import re
 
 be = re.compile('%\n')  # beginning or end of a multi-line
                         # title of class, section, part
+hd = re.compile('(CLASS|SECTION|THESAURUS)')
 
 tb = re.compile('     ') # starting tab of 5 spaces
 
@@ -83,7 +84,8 @@ with open('pg22.txt', 'tr') as roget:
     while True:
         line = roget.readline()
         if not line: break
-        if re.match(be, line) and beg:
+        if re.match(be, line):   # the % delimiter
+            if re.search()
             pass # do the (compound) header reading
         elif re.search(it, line):
             print(line) # the first line of an item
