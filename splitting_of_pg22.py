@@ -27,7 +27,7 @@ SECTION II. RELATION
 Individual parts of a section are numbered with arabic numerals as follows:
 
 %
-2. BEING, IN THE CONCRETE
+2. BEING, IN THE CONCRETE yeah!
 %
 
 The first part of a section is included in the same %% pair of separators;
